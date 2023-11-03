@@ -13,9 +13,9 @@ public class FactoryUse2 : MonoBehaviour
     {
         factory = GetComponent<FactoryUnit>();
 
-        unit1 = factory.createUnit(UnitType.Marine);
-        unit2 = factory.createUnit(UnitType.Firebat);
-        unit3 = factory.createUnit(UnitType.Firebat);
+        unit1 = factory.createUnit(UnitType2.Marine);
+        unit2 = factory.createUnit(UnitType2.Firebat);
+        unit3 = factory.createUnit(UnitType2.Firebat);
 
         StartCoroutine("UnitAction");
     }
