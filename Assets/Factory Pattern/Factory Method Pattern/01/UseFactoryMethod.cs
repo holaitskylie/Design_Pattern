@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -14,10 +14,10 @@ public class UseFactoryMethod : MonoBehaviour
         unitGenerators[1] = new PatternBGenerator();        
     }
 
-    //Å¸ÀÔÀÌ µÎ °¡Áö ÀÖ´Ù´Â °Í¸¸ ¾È´Ù
+    //íƒ€ì…ì´ ë‘ ê°€ì§€ ìˆë‹¤ëŠ” ê²ƒë§Œ ì•ˆë‹¤
     public void DoMakeTypeA()
     {
-        //¹«¾ùÀÌ ¸¸µé¾îÁúÁö ¿©±â¼­´Â ¸ğ¸¥´Ù.
+        //ë¬´ì—‡ì´ ë§Œë“¤ì–´ì§ˆì§€ ì—¬ê¸°ì„œëŠ” ëª¨ë¥¸ë‹¤.
         unitGenerators[0].CreateUnits();
         //unitGenerators[0].units[0].Attack();
 
@@ -30,7 +30,7 @@ public class UseFactoryMethod : MonoBehaviour
 
     public void DoMakeTypeB()
     {
-        //¹«¾ùÀÌ ¸¸µé¾îÁúÁö ¿©±â¼­´Â ¸ğ¸¥´Ù.
+        //ë¬´ì—‡ì´ ë§Œë“¤ì–´ì§ˆì§€ ì—¬ê¸°ì„œëŠ” ëª¨ë¥¸ë‹¤.
         unitGenerators[1].CreateUnits();
         //unitGenerators[1].units[1].Attack();
 
