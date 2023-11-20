@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,9 +9,9 @@ public enum Race
     Zerg
 }
 
-//Á÷Á¢ÀûÀ¸·Î new¸¦ ÅëÇØ °´Ã¼¸¦ ¸¸µå´Â °ÍÀÌ ¾Æ´Ñ
-//ÆÑÅä¸®¸¦ ÅëÇØ¼­ °´Ã¼ »ı¼º
-//ÇØ´ç °´Ã¼¿Í Á÷Á¢ÀûÀÎ ÀÇÁ¸µµ°¡ ³·¾ÆÁö±â ¶§¹®¿¡ ³ªÁÖ¿¨ ÄÚµå¸¦ ¼öÁ¤ÇÒ ÀÏÀÌ Àû¾îÁø´Ù
+//ì§ì ‘ì ìœ¼ë¡œ newë¥¼ í†µí•´ ê°ì²´ë¥¼ ë§Œë“œëŠ” ê²ƒì´ ì•„ë‹Œ
+//íŒ©í† ë¦¬ë¥¼ í†µí•´ì„œ ê°ì²´ ìƒì„±
+//í•´ë‹¹ ê°ì²´ì™€ ì§ì ‘ì ì¸ ì˜ì¡´ë„ê°€ ë‚®ì•„ì§€ê¸° ë•Œë¬¸ì— ë‚˜ì£¼ì—¥ ì½”ë“œë¥¼ ìˆ˜ì •í•  ì¼ì´ ì ì–´ì§„ë‹¤
 public class CapacityFactory
 {
     public static RaceCapacity makeBuilding(Race type)
