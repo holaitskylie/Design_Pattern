@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 //팩토리 메서드가 사용된 스크립트
-//최정 사용하는 코드는 FactoryMethodUse.cs
+//최종 사용하는 코드는 FactoryMethodUse.cs
 
 public class FactoryMethod2 : MonoBehaviour
 {
